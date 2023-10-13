@@ -16,7 +16,7 @@ stop_words = set(stopwords.words('english'))
 tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')
 model = DistilBertModel.from_pretrained('distilbert-base-uncased')
 
-standardized_phrases = pd.read_csv('C:/Users/Arsh/Desktop/Standardised terms.csv', names=['phrases'])
+standardized_phrases = pd.read_csv('Standardised terms.csv', names=['phrases'])
 standardized_phrases = standardized_phrases['phrases'].tolist()
 
 def input_text():
