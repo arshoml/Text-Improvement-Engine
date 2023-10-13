@@ -2,9 +2,9 @@
 This is a text improvement engine that analyses a given text and suggests improvements based on the similarity to a list of "standardised" phrases. These standardised phrases represent the ideal way certain concepts should be articulated, and the tool should recommend changes to align the input text closer to these standards.
 
 # Setup Process
-Clone this repository to your local machine.
-Install the required dependencies with pip install -r requirements.txt.
-Run the script with python text_improvement.py.
+Clone this repository to your local machine.<br>
+Install the required dependencies with pip install -r requirements.txt.<br>
+Run the script with python text_improvement.py.<br>
 
 # Usage
 When you run the script, you will be prompted to choose an option for inputting your text. You can either enter the text directly or provide a path to a text file.
